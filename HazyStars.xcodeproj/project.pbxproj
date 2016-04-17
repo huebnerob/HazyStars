@@ -14,6 +14,7 @@
 		F80F3AE11CC438E0002F4028 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80F3ADF1CC438E0002F4028 /* LaunchScreen.storyboard */; };
 		F80F3AE91CC438F8002F4028 /* HazyStarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80F3AE81CC438F8002F4028 /* HazyStarsView.swift */; };
 		F80F3AEB1CC4410C002F4028 /* SKTexture+Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80F3AEA1CC4410C002F4028 /* SKTexture+Gradient.swift */; };
+		F80F3AED1CC44C3C002F4028 /* CG+Flutter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80F3AEC1CC44C3C002F4028 /* CG+Flutter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F80F3AE21CC438E0002F4028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F80F3AE81CC438F8002F4028 /* HazyStarsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HazyStarsView.swift; sourceTree = "<group>"; };
 		F80F3AEA1CC4410C002F4028 /* SKTexture+Gradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKTexture+Gradient.swift"; sourceTree = "<group>"; };
+		F80F3AEC1CC44C3C002F4028 /* CG+Flutter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CG+Flutter.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				F80F3AD81CC438E0002F4028 /* ViewController.swift */,
 				F80F3AE81CC438F8002F4028 /* HazyStarsView.swift */,
 				F80F3AEA1CC4410C002F4028 /* SKTexture+Gradient.swift */,
+				F80F3AEC1CC44C3C002F4028 /* CG+Flutter.swift */,
 				F80F3ADA1CC438E0002F4028 /* Main.storyboard */,
 				F80F3ADD1CC438E0002F4028 /* Assets.xcassets */,
 				F80F3ADF1CC438E0002F4028 /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 				F80F3AD71CC438E0002F4028 /* AppDelegate.swift in Sources */,
 				F80F3AE91CC438F8002F4028 /* HazyStarsView.swift in Sources */,
 				F80F3AEB1CC4410C002F4028 /* SKTexture+Gradient.swift in Sources */,
+				F80F3AED1CC44C3C002F4028 /* CG+Flutter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
