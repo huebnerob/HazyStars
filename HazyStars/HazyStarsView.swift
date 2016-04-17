@@ -47,7 +47,8 @@ class HazyStarsView: SKView
     private func setup()
     {
         let backgroundNode = SKShapeNode(rect: self.bounds)
-        backgroundNode.fillColor = self.configuration.topColor
+        backgroundNode.fillColor = UIColor.whiteColor() // this is required to actually display a texture, despite the docs saying it's ignored :X
+        backgroundNode.fillTexture = SKTexture(gradientWithSize: self.bounds.size, color1: self.configuration.topColor, color2: self.configuration.bottomColor)
         
         let scene = SKScene(size: self.bounds.size)
         scene.addChild(backgroundNode)
