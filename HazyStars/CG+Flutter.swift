@@ -16,11 +16,22 @@ extension CGFloat
     }
 }
 
+extension NSTimeInterval
+{
+    mutating func flutterBy(flutter: NSTimeInterval)
+    {
+        self = (self - flutter) + ((2*flutter) * NSTimeInterval(arc4random_uniform(10000))/NSTimeInterval(10000))
+    }
+}
+
 extension CGSize
 {
     mutating func flutterBy(flutter: CGFloat)
     {
-        self.width.flutterBy(flutter)
-        self.height.flutterBy(flutter)
+        var delta: CGFloat = 0
+        delta.flutterBy(flutter)
+        
+        self.width += delta
+        self.height += delta
     }
 }
